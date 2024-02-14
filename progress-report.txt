@@ -1,3 +1,4 @@
-PROGRESS REPORT
-(Monday)12/02/2024 - Add property data json files -> Update on github
-(Tuesday) 13/02/2024 - Install and set up taiwind css/daisyUI or chakraUI
+PROGRESS REPORT 2024
+(Monday)12/02 - Add property data json files -> Update on github
+(Tuesday) 13/02 - Install and set up taiwind css/daisyUI or chakraUI
+(Wednesday) 14/02 - Moved property jsonfiles into feature/data folder
