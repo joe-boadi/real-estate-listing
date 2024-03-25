@@ -3,3 +3,38 @@ PROGRESS REPORT 2024
 (Tuesday) 13/02 - Install and set up taiwind css/daisyUI or chakraUI
 (Wednesday) 14/02 - Moved property jsonfiles into feature/data folder
 (Thursday) 22/02 - Install react-icons / sign up at neon.tech: database setup
+(Saturday) 02/03 - Moved files into new folder and created both empty sign up and login form
+
+(Monday) 25/05 - An overview of folder structure
+real-estate-listings/
+├── public/
+│   ├── favicon.ico (Optional)
+│   ├── images/
+│   │   ├── banners/ (For banner images on homepage etc.)
+│   │   ├── listings/ (For listing specific images)
+│   │   └── ... (Other image categories)
+│   └── fonts/
+├── styles/
+│   ├── globals.css (Global styles)
+│   └── ... (Other stylesheets for specific components)
+├── pages/
+│   ├── _app.js (Root application component)
+│   ├── index.js (Homepage)
+│   ├── listings/
+│   │   ├── index.js (Listings page)
+│   │   └── [id].js (Individual listing detail page)
+│   ├── about.js (Optional)
+│   └── contact.js (Optional)
+├── components/
+│   ├── Header.js
+│   ├── Footer.js
+│   ├── ListingCard.js (Reusable component for listing cards)
+│   ├── SearchBar.js (Optional, for search functionality)
+│   ├── Filters.js (Optional, for filtering listings)
+│   └── ... (Other reusable components)
+├── utils/
+│   ├── api.js (API calls for fetching data)
+│   ├── helpers.js (Helper functions for common tasks)
+│   └── ... (Other utility functions)
+└── data/ (Optional)
+    └── sample-listings.json (Sample listing data for development)
