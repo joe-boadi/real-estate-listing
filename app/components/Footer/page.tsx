@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Footer () {
     return (
-        <footer className="footer p-10 bg-base-300 text-neutral-content bg-opacity-55 backdrop-blur-lg">
+        <footer className="footer p-10 bg-base-300 text-base-content bg-opacity-55 backdrop-blur-lg">
             <aside>
                 <div>
                     <Image 

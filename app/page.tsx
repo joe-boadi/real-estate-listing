@@ -1,4 +1,4 @@
-import NavBar from '@/app/components/NavBar/NavBar';
+import NavBar from '@/app/components/NavBar/page';
 import HeroComponent from './components/HeroPage/page';
 import Footer from '@/app/components/Footer/page'
 

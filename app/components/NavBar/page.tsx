@@ -14,7 +14,7 @@ export default function Nav () {
                     <span className='font-mono'>Roof</span>Scout
                 </h1>
             </div>
-            <button className='text-2xl btn btn-accent bg-opacity-50'>Login/Sign up</button>
+            <button className='text-lg btn btn-outline btn-accent bg-opacity-50'>Login/Sign up</button>
         </nav>
     )
 }
