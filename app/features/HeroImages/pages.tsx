@@ -49,7 +49,6 @@ const HeroImages = () => {
     return () => clearInterval(scrollInterval);
   }, []);
 
-
     return (
         <div className="overflow-hidden" ref={scrollContainerRef}>
             <div
