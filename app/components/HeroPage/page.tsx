@@ -1,19 +1,13 @@
-import Image from 'next/image';
+import HeroImages from '@/app/features/HeroImages/pages';
 
 export default function HeroComponent () {
     return (
         <div className='text-center m-3 p-3 mt-16'>
-            <div className='w-full'>
-                <Image
-                    src="/family-love-real-estate-concept-banner.jpg"
-                    alt='family-love-real-estate'
-                    width={200}
-                    height={200}
-                    className='mx-auto w-4/5 sm:w-4/5 md:w-4/5 lg:w-4/5 xl:w-4/5'
-                />
+            <div className='grid grid-flow-col'>
+               <HeroImages />
             </div>
-            
-            <header className='font-semibold text-3xl mt-4 p-3 italic underline'>Find Your Dream Home with RoofScout</header>
+            <header className='font-semibold text-3xl mt-4 p-3 italic'>Find Your Dream Home with RoofScout</header>
+            <p className='italic'><span className='hover:underline font-semibold'><a href="/login">Login</a></span> to get started...</p>
         </div>
     )
 }
