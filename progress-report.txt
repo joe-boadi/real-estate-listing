@@ -1,4 +1,4 @@
-PROGRESS REPORT 2024
+PROJECT-PROGRESS-TRACKING REPORT 2024
 (Monday)12/02 - Add property data json files -> Update on github
 (Tuesday) 13/02 - Install and set up taiwind css/daisyUI or chakraUI
 (Wednesday) 14/02 - Moved property jsonfiles into feature/data folder
@@ -38,3 +38,6 @@ real-estate-listings/
 │   └── ... (Other utility functions)
 └── data/ (Optional)
     └── sample-listings.json (Sample listing data for development)
+
+(Wednesday) 27/03 - Deploy/host project in Vercel acct
+(Friday) 17/5 - Homepage implementation
