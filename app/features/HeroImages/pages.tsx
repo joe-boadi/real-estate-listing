@@ -1,5 +1,4 @@
 'use client'
-
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react';
 import heroImage1 from '@/public/Estate_Images/iStock-.jpg'
